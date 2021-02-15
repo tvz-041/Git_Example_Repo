@@ -11,6 +11,7 @@ public:
 	int someBoolData() const;
 
 	void printSomeIntData() const;
+	void printSomeBoolData() const;
 
 private:
 	int someIntData_ = 0;

@@ -21,4 +21,9 @@ int SomeClass::someBoolData() const
 void SomeClass::printSomeIntData() const
 {
 	std::cout << someIntData_;
-}
+}
+
+void SomeClass::printSomeBoolData() const
+{
+	std::cout << someBoolData_;
+}
