@@ -10,6 +10,8 @@ public:
 	int someIntData() const;
 	int someBoolData() const;
 
+	void printSomeIntData() const;
+
 private:
 	int someIntData_ = 0;
 	bool someBoolData_ = false;

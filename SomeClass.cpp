@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "SomeClass.h"
 
 SomeClass::SomeClass(const int someIntData, const bool someBoolData)
@@ -15,3 +17,8 @@ int SomeClass::someBoolData() const
 {
 	return someBoolData_;
 }
+
+void SomeClass::printSomeIntData() const
+{
+	std::cout << someIntData_;
+}
